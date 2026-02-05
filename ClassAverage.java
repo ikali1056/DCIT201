@@ -17,10 +17,10 @@ public class ClassAverage {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateClassAverage(70, 80));
-        System.out.println(calculateClassAverage(70, 80, 90));
+        System.out.println(calculateClassAverage(30, 40));
+        System.out.println(calculateClassAverage(70, 30, 10));
 
-        double[] classScores = {65, 75, 85, 95};
+        double[] classScores = {76, 44, 32};
         System.out.println(calculateClassAverage(classScores));
     }
 }
